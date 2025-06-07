@@ -20,16 +20,14 @@ const DoorInfo: React.FC = () => {
       {/* Descripción en tarjeta */}
       <div className="bg-white shadow-md rounded-2xl p-4 mb-6">
         <p className="text-base text-gray-700 leading-relaxed">
-          To open the main door:
+          <p className='font-bold'>To open the door:</p>
           <br />
-          1. You'll need to provide a valid e-mail through the Airbnb chat.
+          <p>1. You'll need to provide a valid e-mail through the Airbnb chat.</p>
           <br />
-          2. Once you recieve the e-mail you will need to click on it and there will be two options:
-          Read the instructions below: after that check the images below for more details.
-          
-            <li> Open "Portal" - Click on the ringbell 4º 1ª before clicking on the link. After click the link "poral" and the doors will open</li>
-            <li>· Open "Door". Once you are in the 4th floor you will use this link to open the front door</li>
-
+          <p>2. Once you recieve the e-mail you will need to click on it and there will be two options:</p>
+            <li> Open "PORTAL" - Press on the ringbell 4º 1ª before clicking on the link. After click the link "poral" and the doors will open</li>
+            <li>· Open "DOOR". Once you are in the 4th floor you will use this link to open the front door</li>
+          <p className='font-style: italic'>See the pictures below</p>
         </p>
       </div>
 
@@ -37,20 +35,20 @@ const DoorInfo: React.FC = () => {
       <div className="space-y-4">
         <div className="bg-white shadow-md rounded-2xl p-2">
           <img
-            src="/images/door-panel.jpeg"
+            src="/images/e-mail-key.jpg"
             alt="Ringbell panel"
             className="rounded-xl w-full"
           />
-          <p className="text-sm text-gray-500 mt-2 text-center">click the correct link to open the door</p>
+          <p className="text-sm text-gray-500 mt-2 text-center">click in the link to access your virtual key</p>
         </div>
 
         <div className="bg-white shadow-md rounded-2xl p-2">
           <img
-            src="/images/handle.jpg"
-            alt="e-mail App links"
+            src="/images/door-panel.jpg"
+            alt="Ringbell panel"
             className="rounded-xl w-full"
           />
-          <p className="text-sm text-gray-500 mt-2 text-center">press floor 4º 1ª</p>
+          <p className="text-sm text-gray-500 mt-2 text-center">click the correct link to open the door</p>
         </div>
       </div>
     </div>
