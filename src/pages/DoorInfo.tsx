@@ -24,10 +24,10 @@ const DoorInfo: React.FC = () => {
           <br />
           <p>1. You'll need to provide a valid e-mail through the Airbnb chat.</p>
           <br />
-          <p>2. Once you recieve the e-mail you will need to click on it and there will be two options:</p>
-            <li> Open "PORTAL" - Press on the ringbell 4º 1ª before clicking on the link. After click the link "poral" and the doors will open</li>
-            <li>· Open "DOOR". Once you are in the 4th floor you will use this link to open the front door</li>
-          <p className='font-style: italic'>See the pictures below</p>
+          <p>2. Once you recieve the e-mail on the day of your arrival, you will need to click on it and there will be two options:</p>
+            <li> Open "PORTAL" - This one works to open the two doors from the street. First you need to press on the ringbell 4º 1ª. After click the link "portal" and the doors will open</li>
+            <li>· Open "DOOR" - This one opens the front door of the flat. Once you are in the 4th floor you will use this link to open the front door</li>
+          <p className='font-style: italic'>See the pictures below for visual info</p>
         </p>
       </div>
 
@@ -36,7 +36,7 @@ const DoorInfo: React.FC = () => {
         <div className="bg-white shadow-md rounded-2xl p-2">
           <img
             src="/images/e-mail-key.jpg"
-            alt="Ringbell panel"
+            alt="e-mail key"
             className="rounded-xl w-full"
           />
           <p className="text-sm text-gray-500 mt-2 text-center">click in the link to access your virtual key</p>
@@ -51,6 +51,47 @@ const DoorInfo: React.FC = () => {
           <p className="text-sm text-gray-500 mt-2 text-center">click the correct link to open the door</p>
         </div>
       </div>
+
+      <div className="flex items-center justify-center mb-6 mt-6">
+        <h1 className="text-xl font-bold">The Lock from the inside</h1>
+      </div>
+
+      <div className="bg-white shadow-md rounded-2xl p-4 mb-6">
+        <p className="text-base text-gray-700 leading-relaxed">
+          <p className='font-bold'>Electronic Lock</p>
+          <br />
+          <p>in order to open the door from inside the flat without using the link on the email or the phisical key, you will need to read the following instructions:</p>
+          <br />
+          <p>Put two fingers from your hand on the sides of the lock and sofly slide your fingers from top to bottom, wait until the door is fully unlocked and pull from it.</p>
+          <p className='font-style: italic'>See the pictures below for visual info</p>
+        </p>
+        <div className="bg-white shadow-md rounded-2xl p-2 mb-3">
+          <img
+            src="/images/lock-slide.jpg"
+            alt="lock"
+            className="rounded-xl w-full"
+          />
+          <p className="text-sm text-gray-500 mt-2 text-center">slide your finger in both sides, from top to bottom</p>
+        </div>
+
+        <p className="text-base text-gray-700 mb-2">
+          For a better understanding: Please watch the video below carefully.
+        </p>
+
+        <video
+          controls
+          className="w-full rounded-2xl shadow-md"
+          poster="/images/lock.jpg" // opcional
+        >
+          <source src="/videos/lock-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <h2 className="text-xl font-bold mt-2">IMPORTANT INFO:</h2>
+        <p className='mb-4'>Be really carfull with the round wheel on the top, it has some tape on it to avoid moving. In case it moves and get stuck in a non central position it will start beeping and someone will need to come to open the door for you.</p>
+        <p>In case the lock stops working or you get stuck inside without option of using the key or the link: You can take the tape off and turn the wheel to the left as if it was a key. It will unlock the door.</p>
+      </div>
+      
     </div>
   );
 };
