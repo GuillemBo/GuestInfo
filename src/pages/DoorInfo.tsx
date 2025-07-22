@@ -25,8 +25,8 @@ const DoorInfo: React.FC = () => {
           <p>1. You'll need to provide a valid e-mail through the Airbnb chat.</p>
           <br />
           <p>2. Once you recieve the e-mail on the day of your arrival, you will need to click on it and there will be two options:</p>
-            <li> Open "PORTAL" - This one works to open the two doors from the street. First you need to press on the ringbell 4º 1ª. After click the link "portal" and the doors will open</li>
-            <li>· Open "DOOR" - This one opens the front door of the flat. Once you are in the 4th floor you will use this link to open the front door</li>
+            <li> Open "PORTAL" - This option opens the two entrance doors from the street. First, press the doorbell for 4º 1ª. Then, click the "PORTAL" link and both doors will open.</li>
+            <li>· Open "DOOR" - This option opens the front door of the flat. Once you're on the 4th floor, use this link to open the apartment door.</li>
           <p className='font-style: italic'>See the pictures below for visual info</p>
         </p>
       </div>
@@ -50,6 +50,9 @@ const DoorInfo: React.FC = () => {
           />
           <p className="text-sm text-gray-500 mt-2 text-center">click the correct link to open the door</p>
         </div>
+        <h2 className="text-xl font-bold mt-2">IMPORTANT INFO:</h2>
+        <p className='mb-4'>This links open the door from any place. Do not use them unless you are in front of the door.</p>
+
       </div>
 
       <div className="flex items-center justify-center mb-6 mt-6">

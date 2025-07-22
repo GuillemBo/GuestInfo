@@ -21,11 +21,11 @@ const HouseRules: React.FC = () => {
       <div className="bg-white shadow-md rounded-2xl p-6 space-y-4">
         <ul className="list-disc list-inside text-gray-700 text-base space-y-2">
           <li>No se permite fumar dentro del apartamento.</li>
-          <li>Por respeto a los vecinos, evita ruidos fuertes después de las 22:00.</li>
+          <li>Por respeto a los vecinos, evita ruidos fuertes, sobretodo después de las 21:00.</li>
           <li>Por favor, no organices fiestas.</li>
-          <li>No se permiten mascotas sin autorización previa.</li>
+          <li>No se permiten mascotas</li>
           <li>Apaga el aire acondicionado y las luces al salir.</li>
-          <li>Deja la basura en el contenedor gris de la calle al marcharte.</li>
+          <li>Tira la basura antes marcharte.</li>
         </ul>
       </div>
     </div>

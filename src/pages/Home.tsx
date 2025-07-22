@@ -8,7 +8,7 @@ const Home: React.FC = () => {
 
       <div className="space-y-4">
         <InfoCard title="How to Open the Door" icon="🔑" to='/door' />
-        <InfoCard title="Appliances" icon="🍽️" to='/appliances'/>
+        <InfoCard title="Appliances & more" icon="🍽️" to='/appliances'/>
         <InfoCard title="House Rules" icon="⚠️" to='/rules'/>
         <InfoCard title="Wi-Fi Info" icon="📶" to='/wifi'/>
       </div>
