@@ -20,12 +20,12 @@ const HouseRules: React.FC = () => {
       {/* Reglas dentro de una tarjeta */}
       <div className="bg-white shadow-md rounded-2xl p-6 space-y-4">
         <ul className="list-disc list-inside text-gray-700 text-base space-y-2">
-          <li>No se permite fumar dentro del apartamento.</li>
-          <li>Por respeto a los vecinos, evita ruidos fuertes, sobretodo después de las 21:00.</li>
-          <li>Por favor, no organices fiestas.</li>
-          <li>No se permiten mascotas</li>
-          <li>Apaga el aire acondicionado y las luces al salir.</li>
-          <li>Tira la basura antes marcharte.</li>
+          <li>Smoking is not allowed inside the apartment.</li>
+          <li>Out of respect for the neighbors, please avoid loud noises, especially after 9:00 PM.</li>
+          <li>Please do not host parties.</li>
+          <li>Pets are not allowed.</li>
+          <li>Please turn off the air conditioning and lights when you leave.</li>
+          <li>Please take out the trash before you leave.</li>
         </ul>
       </div>
     </div>

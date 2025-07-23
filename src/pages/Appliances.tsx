@@ -21,7 +21,7 @@ const Appliances: React.FC = () => {
       <div className="bg-white shadow-md rounded-2xl p-6 mb-6 space-y-2">
         <h2 className="text-base font-semibold text-gray-800">Air Conditioner</h2>
         <p className="text-gray-700 text-sm">
-          Usa el mando que está colgado en la pared de cada habitación. Apunta al aparato y pulsa “ON”. No bajar de 22°C para evitar sobrecargarlo. Apágalo al salir.
+          Use the remote control hanging on the wall in each room. Point it at the unit and press “ON.” Do not set the temperature below 22°C to avoid overloading it. Turn it off when you leave.
         </p>
       </div>
 
@@ -29,7 +29,7 @@ const Appliances: React.FC = () => {
       <div className="bg-white shadow-md rounded-2xl p-6 mb-6 space-y-2">
         <h2 className="text-base font-semibold text-gray-800">Washing Machine</h2>
         <p className="text-gray-700 text-sm">
-          Está en la cocina. Abre la puerta, mete la ropa, añade detergente en el cajetín derecho, el suavizante en el cajetín del medio, selecciona el programa con la rueda y pulsa “Inicio”. No sobrecargarla.
+          It’s in the kitchen. Open the door, load the laundry, add detergent in the right drawer, softener in the middle drawer, select the program using the dial, and press “Start.” Do not overload it.
         </p>
       </div>
 
@@ -37,7 +37,7 @@ const Appliances: React.FC = () => {
       <div className="bg-white shadow-md rounded-2xl p-6 mb-6 space-y-2">
         <h2 className="text-base font-semibold text-gray-800">Coffee Machine</h2>
         <p className="text-gray-700 text-sm">
-          Hay dos cafeteras, una es de cápsulas, se encuentra en la cocina y la otra es de filtro, está guardada en un armario de la cocina junto con los filtros del café.
+          There are two coffee makers: one is a capsule machine located in the kitchen, and the other is a filter coffee maker, stored in a kitchen cabinet along with the coffee filters.
         </p>
       </div>
 
@@ -45,7 +45,7 @@ const Appliances: React.FC = () => {
       <div className="bg-white shadow-md rounded-2xl p-6 mb-6 space-y-2">
         <h2 className="text-base font-semibold text-gray-800">Dryer Machine</h2>
         <p className="text-gray-700 text-sm">
-          Está en la cocina, a la derecha de la lavadora. Abre la puerta, mete la ropa, selecciona el prorama con la rueda (entre 80 y 100 está bien), pulsa el botón de play/pause para reiniciar el programa y luego presiona el mismo botón una vez para iniciarlo. Asegurate que el botón izquierdo no está activado.
+          It’s in the kitchen, to the right of the washing machine. Open the door, load the laundry, select the program using the dial (between 80 and 100 is fine), press and hold the play/pause button for about 5 seconds to reset the program, then press the same button once to start it. Make sure the left button is not activated.
         </p>
       </div>
 
@@ -53,9 +53,9 @@ const Appliances: React.FC = () => {
       <div className="bg-white shadow-md rounded-2xl p-6 mb-6 space-y-2">
         <h2 className="text-base font-semibold text-gray-800">Rubbish</h2>
         <p className="text-gray-700 text-sm">
-          Hay un cubo de basura general debajo del fregadero para la basura general y restos orgánicos. Este cubo se puede tirar por el agujero que se encuentra saliendo del apartamento. Por favor, no tires plásticos ni cartones ni basura suelta, se puede quedar atascado. Solo tirar la bolsa cerrada.
-          Para el reciclaje, hay que separar el plástico, el cartón y el vidrio. Se pueden tirar en los contenedores que hay en la calle (hay unos subiendo la calle y otros delante del centro comercial).
-          Por favor, antes de desalojar el apartamento, asegúrate de que la basura está sacada y los cubos están vacíos.
+          <p><li>There is a general trash bin under the sink for general waste and organic leftovers. This bin can be emptied through the chute located just outside the apartment. Please do not throw plastics, cardboard, or loose trash down the chute as it may get stuck. Only dispose of closed bags.</li></p>
+          <p><li>For recycling, please separate plastic, cardboard, and glass. These can be disposed of in the recycling bins located on the street (some are up the street and others in front of the shopping center).</li></p>
+          <p><li>Before checking out, please make sure all trash is taken out and the bins are empty.</li></p>
         </p>
       </div>
 
