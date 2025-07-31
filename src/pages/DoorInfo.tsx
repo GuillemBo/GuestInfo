@@ -26,13 +26,22 @@ const DoorInfo: React.FC = () => {
           <br />
           <p>2. On the day of your arrival, you will receive an email. Open it and click the link — you’ll see two options:</p>
             <li>Open “PORTAL” — This option opens the two entrance doors from the street. First, ring the doorbell for 4º 1ª. Then, click the “PORTAL” link and both doors will open.</li>
-            <li>Open “DOOR” — This option opens the front door of the flat. Once you’re on the 4th floor, use this link to unlock the apartment door.</li>
+            <li>Open “PUERTA” — This option opens the front door of the flat. Once you’re on the 4th floor, use this link to unlock the apartment door.</li>
           <p className='font-style: italic'>See the pictures below for visual reference.</p>
         </p>
       </div>
 
       {/* Imágenes explicativas */}
       <div className="space-y-4">
+        <div className="bg-white shadow-md rounded-2xl p-2">
+          <img
+            src="/images/ringbell.jpg"
+            alt="ringbell"
+            className="rounded-xl w-full"
+          />
+          <p className="text-sm text-gray-500 mt-2 text-center">Press the button 4º 1ª before the link</p>
+        </div>
+
         <div className="bg-white shadow-md rounded-2xl p-2">
           <img
             src="/images/e-mail-key.jpg"
