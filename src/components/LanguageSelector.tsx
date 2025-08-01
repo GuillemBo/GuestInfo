@@ -9,9 +9,9 @@ interface Language {
 }
 
 const languages: Language[] = [
-  { code: 'en', label: 'English', flag: '/public/images/flags/england.png' },
-  { code: 'es', label: 'Español', flag: '/public/images/flags/spain.png' },
-  { code: 'fr', label: 'Français', flag: '/public/images/flags/france.png' },
+  { code: 'en', label: 'English', flag: '/public/images/england.png' },
+  { code: 'es', label: 'Español', flag: '/public/images/spain.png' },
+  { code: 'fr', label: 'Français', flag: '/public/images/france.png' },
 ];
 
 const LanguageSelector: React.FC = () => {
