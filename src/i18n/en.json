@@ -1,0 +1,127 @@
+{
+  "pages": {
+    "home": {
+      "homeTitle": "Guest Information",
+      "howToOpenDoor": "How to Open the Door",
+      "appliances": "Appliances & more",
+      "houseRules": "House Rules",
+      "wifiInfo": "Wi-Fi Info",
+      "nearbyPlaces": "Nearby Places"
+    },
+
+
+    "guestInfo": {
+      "title": "Guest Information",
+      "description": "Important information for your stay."
+    },
+
+
+    "doorInfo": {
+      "title": "How to Open the Door",
+      "description": "Instructions on how to access the property.",
+      "stepsTitle": "To open the door:",
+      "step1": "You’ll need to provide a valid email address through the Airbnb chat.",
+      "step2": "On the day of your arrival, you will receive an email. Open it and click the link — you’ll see two options:",
+      "optionPortal": "Open “PORTAL” — This option opens the two entrance doors from the street. First, ring the doorbell for 4º 1ª. Then, click the “PORTAL” link and both doors will open.",
+      "optionPuerta": "Open “PUERTA” — This option opens the front door of the flat. Once you’re on the 4th floor, use this link to unlock the apartment door.",
+      "visualReferenceNote": "See the pictures below for visual reference.",
+      "imgRingbellCaption": "Press the button 4º 1ª before the link",
+      "imgEmailKeyCaption": "Click the link to access your virtual key.",
+      "imgDoorPanelCaption": "Click the correct link to open the door",
+      "importantNotice1Title": "IMPORTANT INFORMATION:",
+      "importantNotice1Text": "These links open the door from anywhere. Do not use them unless you are standing right in front of the door.",
+
+      "insideLockTitle": "The Lock from the inside",
+      "electronicLock": {
+        "title": "Electronic Lock",
+        "instructions": "To open the door from inside the flat without using the link in the email or the physical key, please follow these instructions:",
+        "step": "Place two fingers on the sides of the lock and gently slide them from top to bottom. Wait until the door is fully unlocked, then pull it open.",
+        "visualReferenceNote": "See the pictures below for visual information",
+        "imgSlideCaption": "Slide your fingers on both sides of the lock, from top to bottom.",
+        "videoNote": "For better understanding, please watch the video below carefully.",
+        "importantNotice2Title": "IMPORTANT INFORMATION:",
+        "importantNotice2Text1": "Be very careful with the round wheel on top. It has tape to prevent it from moving. If it shifts and gets stuck in an off-center position, it will start beeping, and someone will need to come to open the door for you.",
+        "importantNotice2Text2": "If the lock stops working or you get stuck inside without the option to use the key or the link, you can remove the tape and turn the wheel to the left, as if it were a key. This will unlock the door."
+      }
+    },
+
+
+    "appliances": {
+      "title": "Appliances & more",
+      "description": "Information about the appliances available in the house.",
+      "airConditioner": {
+        "title": "Air Conditioner",
+        "text": "Use the remote control hanging on the wall in each room. Point it at the unit and press “ON.” Do not set the temperature below 22°C to avoid overloading it. Turn it off when you leave."
+      },
+      "washingMachine": {
+        "title": "Washing Machine",
+        "text": "It’s in the kitchen. Open the door, load the laundry, add detergent in the right drawer, softener in the middle drawer, select the program using the dial, and press “Start.” Do not overload it.",
+        "image1": {
+          "label1": "On/Off button (yellow)",
+          "label2": "Dial to choose the program (red)",
+          "label3": "Start button (green)"
+        },
+        "image2": {
+          "label1": "Yellow drawer: soap",
+          "label2": "Blue drawer: softener"
+        }
+      },
+      "coffeeMachine": {
+        "title": "Coffee Machine",
+        "text": "There are two coffee makers: one is a capsule machine located in the kitchen, and the other is a filter coffee maker, stored in a kitchen cabinet along with the coffee filters."
+      },
+      "dryerMachine": {
+        "title": "Dryer Machine",
+        "text": "It’s in the kitchen, to the right of the washing machine. Open the door, load the laundry, select the program using the dial (between 80 and 100 is fine), press and hold the play/pause button for about 5 seconds to reset the program, then press the same button once to start it. Make sure the left button is not activated.",
+        "image": {
+          "label": "play/pause button (yellow)"
+        }
+      },
+      "microwave": {
+        "title": "Microwave",
+        "text1": "Use the top dial to choose the power from the top (low) to right (higher)",
+        "text2": "Use the bottom dial to choose the time and start it"
+      },
+      "rubbish": {
+        "title": "Rubbish",
+        "text1": "There is a general trash bin under the sink for general waste and organic leftovers. This bin can be emptied through the chute located just outside the apartment. Please do not throw plastics, cardboard, or loose trash down the chute as it may get stuck. Only dispose of closed bags.",
+        "text2": "For recycling, please separate plastic, cardboard, and glass. These can be disposed of in the recycling bins located on the street (some are up the street and others in front of the shopping center).",
+        "text3": "Before checking out, please make sure all trash is taken out and the bins are empty.",
+        "image": {
+          "label": "throw the rubbish bags here"
+        }
+      }
+    },
+
+
+    "houseRules": {
+      "title": "House Rules",
+      "description": "Please read and follow the house rules during your stay.",
+      "rules": [
+        "Smoking is not allowed inside the apartment.",
+        "Out of respect for the neighbors, please avoid loud noises, especially after 9:00 PM.",
+        "Please do not host parties.",
+        "Pets are not allowed.",
+        "Please turn off the air conditioning and lights when you leave.",
+        "Please take out the trash before you leave."
+      ]
+    },
+
+
+    "wifiInfo": {
+      "title": "Wi-Fi Info",
+      "description": "Connect to our Wi-Fi network using the following details.",
+      "networkLabel": "Network name",
+      "networkName": "ADAMO-68E0",
+      "passwordLabel": "Password",
+      "passwordValue": "QGCGT3PQKPL7ER",
+      "imageCaption": "Wi-Fi access point location"
+    },
+
+    
+    "nearbyPlaces": {
+      "title": "Nearby Places",
+      "description": "Explore nearby attractions and amenities."
+    }
+  }
+}

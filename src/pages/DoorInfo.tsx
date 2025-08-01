@@ -1,7 +1,9 @@
+import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 
 const DoorInfo: React.FC = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
 
   return (
@@ -14,20 +16,20 @@ const DoorInfo: React.FC = () => {
         >
           ←
         </button>
-        <h1 className="text-xl font-bold">How to Open the Door</h1>
+        <h1 className="text-xl font-bold">{t('pages.doorInfo.title')}</h1>
       </div>
 
       {/* Descripción en tarjeta */}
       <div className="bg-white shadow-md rounded-2xl p-4 mb-6">
         <p className="text-base text-gray-700 leading-relaxed">
-          <p className='font-bold'>To open the door:</p>
+          <p className='font-bold'>{t('pages.doorInfo.stepsTitle')}</p>
           <br />
-          <p>1. You’ll need to provide a valid email address through the Airbnb chat.</p>
+          <p>1. {t('pages.doorInfo.step1')}</p>
           <br />
-          <p>2. On the day of your arrival, you will receive an email. Open it and click the link — you’ll see two options:</p>
-            <li>Open “PORTAL” — This option opens the two entrance doors from the street. First, ring the doorbell for 4º 1ª. Then, click the “PORTAL” link and both doors will open.</li>
-            <li>Open “PUERTA” — This option opens the front door of the flat. Once you’re on the 4th floor, use this link to unlock the apartment door.</li>
-          <p className='font-style: italic'>See the pictures below for visual reference.</p>
+          <p>2. {t('pages.doorInfo.step2')}</p>
+            <li>{t('pages.doorInfo.optionPortal')}</li>
+            <li>{t('pages.doorInfo.optionPuerta')}</li>
+          <p className='font-style: italic'>{t('pages.doorInfo.visualReferenceNote')}</p>
         </p>
       </div>
 
@@ -39,7 +41,7 @@ const DoorInfo: React.FC = () => {
             alt="ringbell"
             className="rounded-xl w-full"
           />
-          <p className="text-sm text-gray-500 mt-2 text-center">Press the button 4º 1ª before the link</p>
+          <p className="text-sm text-gray-500 mt-2 text-center">{t('pages.doorInfo.imgRingbellCaption')}</p>
         </div>
 
         <div className="bg-white shadow-md rounded-2xl p-2">
@@ -48,7 +50,7 @@ const DoorInfo: React.FC = () => {
             alt="e-mail key"
             className="rounded-xl w-full"
           />
-          <p className="text-sm text-gray-500 mt-2 text-center">Click the link to access your virtual key.</p>
+          <p className="text-sm text-gray-500 mt-2 text-center">{t('pages.doorInfo.imgEmailKeyCaption')}</p>
         </div>
 
         <div className="bg-white shadow-md rounded-2xl p-2">
@@ -57,25 +59,25 @@ const DoorInfo: React.FC = () => {
             alt="Ringbell panel"
             className="rounded-xl w-full"
           />
-          <p className="text-sm text-gray-500 mt-2 text-center">Click the correct link to open the door</p>
+          <p className="text-sm text-gray-500 mt-2 text-center">{t('pages.doorInfo.imgDoorPanelCaption')}</p>
         </div>
-        <h2 className="text-xl font-bold mt-2">IMPORTANT INFORMATION:</h2>
-        <p className='mb-4'>These links open the door from anywhere. Do not use them unless you are standing right in front of the door.</p>
+        <h2 className="text-xl font-bold mt-2">{t('pages.doorInfo.importantNotice1Title')}</h2>
+        <p className='mb-4'>{t('pages.doorInfo.importantNotice1Text')}</p>
 
       </div>
 
       <div className="flex items-center justify-center mb-6 mt-6">
-        <h1 className="text-xl font-bold">The Lock from the inside</h1>
+        <h1 className="text-xl font-bold">{t('pages.doorInfo.insideLockTitle')}</h1>
       </div>
 
       <div className="bg-white shadow-md rounded-2xl p-4 mb-6">
         <p className="text-base text-gray-700 leading-relaxed">
-          <p className='font-bold'>Electronic Lock</p>
+          <p className='font-bold'>{t('pages.doorInfo.electronicLock.title')}</p>
           <br />
-          <p>To open the door from inside the flat without using the link in the email or the physical key, please follow these instructions:</p>
+          <p>{t('pages.doorInfo.electronicLock.instructions')}</p>
           <br />
-          <p>Place two fingers on the sides of the lock and gently slide them from top to bottom. Wait until the door is fully unlocked, then pull it open.</p>
-          <p className='font-style: italic'>See the pictures below for visual information</p>
+          <p>{t('pages.doorInfo.electronicLock.step')}</p>
+          <p className='font-style: italic'>{t('pages.doorInfo.electronicLock.visualReferenceNote')}</p>
         </p>
         <div className="bg-white shadow-md rounded-2xl p-2 mb-3">
           <img
@@ -83,11 +85,11 @@ const DoorInfo: React.FC = () => {
             alt="lock"
             className="rounded-xl w-full"
           />
-          <p className="text-sm text-gray-500 mt-2 text-center">Slide your fingers on both sides of the lock, from top to bottom.</p>
+          <p className="text-sm text-gray-500 mt-2 text-center">{t('pages.doorInfo.electronicLock.imgSlideCaption')}</p>
         </div>
 
         <p className="text-base text-gray-700 mb-2">
-          For better understanding, please watch the video below carefully.
+          {t('pages.doorInfo.electronicLock.videoNote')}
         </p>
 
         <video
@@ -99,9 +101,9 @@ const DoorInfo: React.FC = () => {
           Your browser does not support the video tag.
         </video>
 
-        <h2 className="text-xl font-bold mt-2">IMPORTANT INFORMATION:</h2>
-        <p className='mb-4'>Be very careful with the round wheel on top. It has tape to prevent it from moving. If it shifts and gets stuck in an off-center position, it will start beeping, and someone will need to come to open the door for you.</p>
-        <p>If the lock stops working or you get stuck inside without the option to use the key or the link, you can remove the tape and turn the wheel to the left, as if it were a key. This will unlock the door.</p>
+        <h2 className="text-xl font-bold mt-2">{t('pages.doorInfo.electronicLock.importantNotice2Title')}</h2>
+        <p className='mb-4'>{t('pages.doorInfo.electronicLock.importantNotice2Text1')}</p>
+        <p>{t('pages.doorInfo.electronicLock.importantNotice2Text2')}</p>
       </div>
       
     </div>

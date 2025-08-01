@@ -1,7 +1,9 @@
+import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 
 const WifiInfo: React.FC = () => {
     const navigate = useNavigate();
+    const { t } = useTranslation();
 
       return (
     <div className="max-w-[430px] mx-auto px-4 py-6">
@@ -13,20 +15,20 @@ const WifiInfo: React.FC = () => {
         >
           ←
         </button>
-        <h1 className="text-xl font-bold">Wi-Fi Info</h1>
+        <h1 className="text-xl font-bold">{t('pages.wifiInfo.title')}</h1>
       </div>
 
       {/* Tarjeta con los datos */}
       <div className="bg-white shadow-md rounded-2xl p-6 space-y-4">
         <div>
-          <p className="text-sm text-gray-500">Network name</p>
-          <p className="text-base font-semibold text-gray-800">SunnyApt-Guest</p>
+          <p className="text-sm text-gray-500">{t('pages.wifiInfo.networkLabel')}</p>
+          <p className="text-base font-semibold text-gray-800">{t('pages.wifiInfo.networkName')}</p>
         </div>
 
         <div>
-          <p className="text-sm text-gray-500">Password</p>
+          <p className="text-sm text-gray-500">{t('pages.wifiInfo.passwordLabel')}</p>
           <p className="text-base font-semibold text-gray-800 tracking-wider">
-            9Xf3-72kl-WIFI
+            {t('pages.wifiInfo.passwordValue')}
           </p>
         </div>
       </div>
@@ -38,7 +40,7 @@ const WifiInfo: React.FC = () => {
           alt="Wi-Fi symbol"
           className="rounded-xl w-full"
         />
-        <p className="text-sm text-gray-500 mt-2 text-center">Wi-Fi access point location</p>
+        <p className="text-sm text-gray-500 mt-2 text-center">{t('pages.wifiInfo.imageCaption')}</p>
       </div>
     </div>
   );

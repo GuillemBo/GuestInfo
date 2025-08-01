@@ -1,0 +1,126 @@
+{
+  "pages": {
+    "home": {
+      "homeTitle": "Informations pour les invités",
+      "howToOpenDoor": "Comment ouvrir la porte",
+      "appliances": "Électroménagers et plus",
+      "houseRules": "Règles de la maison",
+      "wifiInfo": "Infos Wi-Fi",
+      "nearbyPlaces": "Lieux à proximité"
+    },
+
+
+    "guestInfo": {
+      "title": "Informations pour les invités",
+      "description": "Informations importantes pour votre séjour."
+    },
+
+
+    "doorInfo": {
+      "title": "Comment ouvrir la porte",
+      "description": "Instructions pour accéder à l’appartement.",
+      "stepsTitle": "Pour ouvrir la porte :",
+      "step1": "Vous devez fournir une adresse e-mail valide via le chat Airbnb.",
+      "step2": "Le jour de votre arrivée, vous recevrez un e-mail. Ouvrez-le et cliquez sur le lien — vous verrez deux options :",
+      "optionPortal": "Ouvrir “PORTAL” — Cette option ouvre les deux portes d’entrée depuis la rue. D’abord, sonnez à l’interphone 4º 1ª. Ensuite, cliquez sur le lien “PORTAL” et les deux portes s’ouvriront.",
+      "optionPuerta": "Ouvrir “PUERTA” — Cette option ouvre la porte de l’appartement. Une fois au 4e étage, utilisez ce lien pour déverrouiller la porte.",
+      "visualReferenceNote": "Voir les images ci-dessous comme référence visuelle.",
+      "imgRingbellCaption": "Appuyez sur le bouton 4º 1ª avant d’utiliser le lien",
+      "imgEmailKeyCaption": "Cliquez sur le lien pour accéder à votre clé virtuelle.",
+      "imgDoorPanelCaption": "Cliquez sur le bon lien pour ouvrir la porte",
+      "importantNotice1Title": "INFORMATION IMPORTANTE :",
+      "importantNotice1Text": "Ces liens ouvrent la porte à distance. Ne les utilisez que si vous êtes juste devant la porte.",
+      "insideLockTitle": "La serrure de l’intérieur",
+      "electronicLock": {
+        "title": "Serrure électronique",
+        "instructions": "Pour ouvrir la porte depuis l’intérieur sans utiliser le lien ou la clé physique, suivez ces instructions :",
+        "step": "Placez deux doigts de chaque côté de la serrure et faites-les glisser doucement de haut en bas. Attendez que la porte soit complètement déverrouillée, puis ouvrez-la.",
+        "visualReferenceNote": "Voir les images ci-dessous pour plus de détails visuels.",
+        "imgSlideCaption": "Faites glisser vos doigts des deux côtés de la serrure, de haut en bas.",
+        "videoNote": "Pour mieux comprendre, veuillez regarder attentivement la vidéo ci-dessous.",
+        "importantNotice2Title": "INFORMATION IMPORTANTE :",
+        "importantNotice2Text1": "Faites très attention à la roue ronde sur le dessus. Elle est fixée avec du ruban adhésif pour éviter qu’elle ne bouge. Si elle tourne et se bloque, elle émettra un bip, et quelqu’un devra venir ouvrir la porte.",
+        "importantNotice2Text2": "Si la serrure ne fonctionne plus ou si vous êtes coincé à l’intérieur sans clé ni lien, retirez le ruban et tournez la roue vers la gauche, comme une clé. Cela ouvrira la porte."
+      }
+    },
+
+
+    "appliances": {
+      "title": "Électroménagers et plus",
+      "description": "Informations sur les appareils disponibles dans l’appartement.",
+      "airConditioner": {
+        "title": "Climatisation",
+        "text": "Utilisez la télécommande accrochée au mur de chaque pièce. Pointez-la vers l’appareil et appuyez sur “ON”. Ne réglez pas la température en dessous de 22 °C pour éviter une surcharge. Éteignez-la en quittant l’appartement."
+      },
+      "washingMachine": {
+        "title": "Machine à laver",
+        "text": "Elle se trouve dans la cuisine. Ouvrez la porte, mettez le linge, mettez la lessive dans le compartiment de droite, l’assouplissant dans celui du milieu, choisissez le programme avec le bouton rotatif et appuyez sur “Start”. Ne la surchargez pas.",
+        "image1": {
+          "label1": "Bouton marche/arrêt (jaune)",
+          "label2": "Sélecteur de programme (rouge)",
+          "label3": "Bouton démarrer (vert)"
+        },
+        "image2": {
+          "label1": "Tiroir jaune : lessive",
+          "label2": "Tiroir bleu : assouplissant"
+        }
+      },
+      "coffeeMachine": {
+        "title": "Machine à café",
+        "text": "Il y a deux machines à café : une à capsules (dans la cuisine) et une à filtre (rangée dans un placard avec les filtres)."
+      },
+      "dryerMachine": {
+        "title": "Sèche-linge",
+        "text": "Il est dans la cuisine, à droite de la machine à laver. Ouvrez la porte, mettez le linge, choisissez un programme entre 80 et 100 avec le bouton, maintenez le bouton lecture/pause environ 5 secondes pour réinitialiser, puis appuyez une fois pour démarrer. Assurez-vous que le bouton de gauche n’est pas activé.",
+        "image": {
+          "label": "bouton lecture/pause (jaune)"
+        }
+      },
+      "microwave": {
+        "title": "Micro-ondes",
+        "text1": "Utilisez le bouton supérieur pour choisir la puissance (du haut = faible, à droite = élevée).",
+        "text2": "Utilisez le bouton inférieur pour régler le temps et démarrer."
+      },
+      "rubbish": {
+        "title": "Ordures",
+        "text1": "Il y a une poubelle sous l’évier pour les déchets généraux et organiques. Vous pouvez la vider via le vide-ordures situé juste à l’extérieur de l’appartement. Ne jetez pas de plastique, carton ou déchets en vrac dans le vide-ordures — seulement des sacs fermés.",
+        "text2": "Pour le recyclage, séparez plastique, carton et verre. Des conteneurs de tri se trouvent dans la rue (certains plus haut, d’autres devant le centre commercial).",
+        "text3": "Avant de partir, merci de vider toutes les poubelles.",
+        "image": {
+          "label": "jetez ici les sacs d’ordures"
+        }
+      }
+    },
+
+
+    "houseRules": {
+      "title": "Règles de la maison",
+      "description": "Merci de lire et de respecter les règles pendant votre séjour.",
+      "rules": [
+        "Il est interdit de fumer à l’intérieur de l’appartement.",
+        "Par respect pour les voisins, évitez les bruits forts, surtout après 21h.",
+        "Les fêtes ne sont pas autorisées.",
+        "Les animaux ne sont pas admis.",
+        "Veuillez éteindre la climatisation et les lumières lorsque vous quittez l’appartement.",
+        "Merci de sortir les ordures avant votre départ."
+      ]
+    },
+
+
+    "wifiInfo": {
+      "title": "Infos Wi-Fi",
+      "description": "Connectez-vous au réseau Wi-Fi avec les informations suivantes.",
+      "networkLabel": "Nom du réseau",
+      "networkName": "ADAMO-68E0",
+      "passwordLabel": "Mot de passe",
+      "passwordValue": "QGCGT3PQKPL7ER",
+      "imageCaption": "Emplacement du point d’accès Wi-Fi"
+    },
+
+    
+    "nearbyPlaces": {
+      "title": "Lieux à proximité",
+      "description": "Découvrez les attractions et services proches."
+    }
+  }
+}

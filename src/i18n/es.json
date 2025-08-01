@@ -1,0 +1,126 @@
+{
+  "pages": {
+    "home": {
+      "homeTitle": "Información para huéspedes",
+      "howToOpenDoor": "Cómo abrir la puerta",
+      "appliances": "Electrodomésticos y más",
+      "houseRules": "Normas de la casa",
+      "wifiInfo": "Información del Wi-Fi",
+      "nearbyPlaces": "Lugares cercanos"
+    },
+
+    
+    "guestInfo": {
+      "title": "Información para huéspedes",
+      "description": "Información importante para tu estancia."
+    },
+
+
+    "doorInfo": {
+      "title": "Cómo abrir la puerta",
+      "description": "Instrucciones para acceder al alojamiento.",
+      "stepsTitle": "Para abrir la puerta:",
+      "step1": "Debes proporcionar una dirección de correo electrónico válida a través del chat de Airbnb.",
+      "step2": "El día de tu llegada, recibirás un correo electrónico. Ábrelo y haz clic en el enlace — verás dos opciones:",
+      "optionPortal": "Abrir “PORTAL” — Esta opción abre las dos puertas de entrada desde la calle. Primero, pulsa el timbre de 4º 1ª. Luego, haz clic en el enlace “PORTAL” y ambas puertas se abrirán.",
+      "optionPuerta": "Abrir “PUERTA” — Esta opción abre la puerta del apartamento. Una vez estés en el 4º piso, usa este enlace para desbloquear la puerta del piso.",
+      "visualReferenceNote": "Consulta las imágenes a continuación como referencia visual.",
+      "imgRingbellCaption": "Pulsa el botón 4º 1ª antes del enlace",
+      "imgEmailKeyCaption": "Haz clic en el enlace para acceder a tu llave virtual.",
+      "imgDoorPanelCaption": "Haz clic en el enlace correcto para abrir la puerta",
+      "importantNotice1Title": "INFORMACIÓN IMPORTANTE:",
+      "importantNotice1Text": "Estos enlaces abren la puerta desde cualquier lugar. No los uses a menos que estés justo delante de la puerta.",
+      "insideLockTitle": "La cerradura desde dentro",
+      "electronicLock": {
+        "title": "Cerradura electrónica",
+        "instructions": "Para abrir la puerta desde dentro del piso sin usar el enlace del correo o la llave física, sigue estas instrucciones:",
+        "step": "Coloca dos dedos a los lados de la cerradura y deslízalos suavemente de arriba hacia abajo. Espera a que se desbloquee completamente y luego tira de la puerta.",
+        "visualReferenceNote": "Consulta las imágenes a continuación para más detalles visuales.",
+        "imgSlideCaption": "Desliza los dedos por ambos lados de la cerradura, de arriba hacia abajo.",
+        "videoNote": "Para entenderlo mejor, mira atentamente el vídeo a continuación.",
+        "importantNotice2Title": "INFORMACIÓN IMPORTANTE:",
+        "importantNotice2Text1": "Ten mucho cuidado con la rueda redonda superior. Tiene cinta adhesiva para evitar que se mueva. Si se desplaza y queda descentrada, empezará a pitar, y alguien tendrá que venir a abrirte.",
+        "importantNotice2Text2": "Si la cerradura deja de funcionar o te quedas encerrado sin poder usar la llave ni el enlace, puedes quitar la cinta y girar la rueda hacia la izquierda, como si fuera una llave. Así se desbloqueará la puerta."
+      }
+    },
+
+
+    "appliances": {
+      "title": "Electrodomésticos y más",
+      "description": "Información sobre los electrodomésticos disponibles en la casa.",
+      "airConditioner": {
+        "title": "Aire acondicionado",
+        "text": "Usa el mando a distancia colgado en la pared de cada habitación. Apúntalo a la unidad y pulsa “ON”. No pongas la temperatura por debajo de 22 °C para evitar sobrecargas. Apágalo al salir."
+      },
+      "washingMachine": {
+        "title": "Lavadora",
+        "text": "Está en la cocina. Abre la puerta, mete la ropa, añade detergente en el compartimento derecho, suavizante en el del medio, selecciona el programa con la rueda y pulsa “Start”. No la sobrecargues.",
+        "image1": {
+          "label1": "Botón de encendido/apagado (amarillo)",
+          "label2": "Rueda para elegir el programa (rojo)",
+          "label3": "Botón de inicio (verde)"
+        },
+        "image2": {
+          "label1": "Cajón amarillo: detergente",
+          "label2": "Cajón azul: suavizante"
+        }
+      },
+      "coffeeMachine": {
+        "title": "Cafetera",
+        "text": "Hay dos cafeteras: una de cápsulas en la cocina, y otra de filtro guardada en un armario de cocina junto a los filtros."
+      },
+      "dryerMachine": {
+        "title": "Secadora",
+        "text": "Está en la cocina, a la derecha de la lavadora. Abre la puerta, mete la ropa, selecciona el programa con la rueda (entre 80 y 100 está bien), mantén pulsado el botón de play/pausa unos 5 segundos para reiniciar el programa, y luego púlsalo una vez para empezar. Asegúrate de que el botón izquierdo no esté activado.",
+        "image": {
+          "label": "Botón de play/pausa (amarillo)"
+        }
+      },
+      "microwave": {
+        "title": "Microondas",
+        "text1": "Usa la rueda superior para elegir la potencia (de arriba = baja, a derecha = alta).",
+        "text2": "Usa la rueda inferior para elegir el tiempo y ponerlo en marcha."
+      },
+      "rubbish": {
+        "title": "Basura",
+        "text1": "Hay un cubo bajo el fregadero para residuos generales y restos orgánicos. Puedes vaciarlo en el conducto que está justo fuera del piso. No tires plásticos, cartón ni basura suelta por el conducto, ya que puede atascarse. Solo bolsas cerradas.",
+        "text2": "Para el reciclaje, separa plástico, cartón y vidrio. Puedes tirarlos en los contenedores de reciclaje en la calle (algunos están cuesta arriba, otros frente al centro comercial).",
+        "text3": "Antes de hacer el check-out, por favor asegúrate de sacar toda la basura y dejar los cubos vacíos.",
+        "image": {
+          "label": "tira las bolsas de basura aquí"
+        }
+      }
+    },
+
+
+    "houseRules": {
+      "title": "Normas de la casa",
+      "description": "Por favor, lee y respeta las normas durante tu estancia.",
+      "rules": [
+        "No está permitido fumar dentro del apartamento.",
+        "Por respeto a los vecinos, evita ruidos fuertes, especialmente después de las 21:00.",
+        "No se permiten fiestas.",
+        "No se permiten mascotas.",
+        "Apaga el aire acondicionado y las luces al salir.",
+        "Saca la basura antes de marcharte."
+      ]
+    },
+
+
+    "wifiInfo": {
+      "title": "Información del Wi-Fi",
+      "description": "Conéctate a la red Wi-Fi usando los siguientes datos.",
+      "networkLabel": "Nombre de la red",
+      "networkName": "ADAMO-68E0",
+      "passwordLabel": "Contraseña",
+      "passwordValue": "QGCGT3PQKPL7ER",
+      "imageCaption": "Ubicación del punto de acceso Wi-Fi"
+    },
+
+    
+    "nearbyPlaces": {
+      "title": "Lugares cercanos",
+      "description": "Descubre atracciones y servicios cercanos."
+    }
+  }
+}
